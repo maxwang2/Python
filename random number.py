@@ -1,13 +1,13 @@
 amount = int(input())
 lst = []
-a = 1
+times = 1
 while amount != 0:
     flag = True
     current_num = int(input())
-    if a == 1:
+    if times == 1:
         lst.append(current_num)
         amount -= 1
-        a += 1
+        times += 1
         continue
     for i in range(0, len(lst)):
         if lst[i] == current_num:
